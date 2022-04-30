@@ -4,7 +4,7 @@ import org.junit.*;
 public class SkillDemoTest{
     @Test
     public void LbstoKgsTest(){
-        assertEquals(45.3592, SkillDemo.convertLbs(100));
+        assertEquals(45.3592, SkillDemo.convertLbs(100), 4);
     }
  
     @Test
